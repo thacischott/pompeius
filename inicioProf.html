@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+   
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Bootstrap CSS  --> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css">
+    <link href="https://code.jquery.com/jquery-1.11.0.min.js">
+    <link href="https://code.jquery.com/jquery-migrate-1.2.1.min.js">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <link rel="stylesheet" href="style4.css">
+    <script src="js/validator.min.js"></script>
+
+</head>
+
+<body>
+  
+        <div class="wrapper">
+            <!-- Sidebar Holder -->
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                  <img src="https://thacischott.github.io/pompeius/logoc.png"  class="img-responsive img-fluid" >
+                </div>
+
+                <ul class="list-unstyled components">
+                    <li class="active">
+                        <a href="https://thacischott.github.io/pompeius/" data-toggle="collapse" aria-expanded="false">
+                            <i class="glyphicon glyphicon-home"></i>
+                            PAGINA INICIAL
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="glyphicon glyphicon-plus"></i>
+                            POMPEIUS
+                        </a>
+                        <a href="https://thacischott.github.io/pompeius/editarDados.html" data-toggle="collapse" aria-expanded="false">
+                            <i class="glyphicon glyphicon-pencil"></i>
+                            EDITAR DADOS
+                        </a>
+                    </li>
+                  
+                </ul>
+
+             <!--   <ul class="list-unstyled CTAs">
+                    <li><a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a></li>
+                    <li><a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a></li>
+                </ul>-->
+            </nav>
+
+            <div id="content">
+              <button class="btn btn-outline-info" id="sidebarCollapse" role="button">
+                  <i class="glyphicon glyphicon-align-left"></i>  
+                    <span><b>MENU</b></span>
+               </button>        
+            </div>
+      
+
+        <!-- jQuery CDN -->
+         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+         <!-- Bootstrap Js CDN -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+         <script type="text/javascript">
+             $(document).ready(function () {
+                 $('#sidebarCollapse').on('click', function () {
+                     $('#sidebar').toggleClass('active');
+                 });
+             });
+         </script>
+
+
+</body>
+</html>
